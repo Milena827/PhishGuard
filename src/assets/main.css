@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Светлая тема (по умолчанию) */
+:root {
+  --bg-primary: #F9FAFB;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --border-color: #E5E7EB;
+}
+
+/* Тёмная тема */
+.dark {
+  --bg-primary: #0B1120;
+  --bg-secondary: #111827;
+  --text-primary: #F9FAFB;
+  --text-secondary: #D1D5DB;
+  --border-color: #374151;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+  }
+}

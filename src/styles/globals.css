@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme (по умолчанию) */
+:root {
+  --color-primary: #0F172A;
+  --color-secondary: #06B6D4;
+
+  --bg-primary: #F4F7FA;
+  --bg-secondary: #FFFFFF;
+  --bg-muted: #E9EEF5;
+
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+
+  --success: #10B981;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --accent: #22D3EE;
+
+  --border-color: #D6DFEA;
+}
+
+/* Dark Theme */
+.dark {
+  --color-primary: #0B1120;
+  --color-secondary: #22D3EE;
+
+  --bg-primary: #0B1120;
+  --bg-secondary: #111827;
+  --bg-muted: #172033;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  --success: #10B981;
+  --warning: #FBBF24;
+  --error: #F87171;
+  --accent: #67E8F9;
+
+  --border-color: #334155;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+}
