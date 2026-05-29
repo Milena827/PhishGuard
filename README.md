@@ -14,7 +14,7 @@
 
 ```bash
 git clone https://github.com/Milena827/PhishGuard.git
-cd PhishGuard
+cd phishing-detector
 npm install
 npm run dev
 ```
