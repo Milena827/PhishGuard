@@ -1,38 +1,27 @@
-# phishing-detector
+# 🛡️ PhishGuard - Антифишинговая система
 
-This template should help get you started developing with Vue 3 in Vite.
+Интеллектуальная система для обнаружения фишинговых веб-сайтов на основе MLP (многослойного персептрона) с веб-интерфейсом на Vue.js.
 
-## Recommended IDE Setup
+## 🚀 Как запустить проект
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Скопируйте ссылку на репозиторий:
+https://github.com/Milena827/PhishGuard.git
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+   
+2. Откройте терминал и выполните:
+```bash
+git clone https://github.com/Milena827/PhishGuard.git
+cd phishing-detector
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+3. Откройте браузер и перейдите по адресу: http://localhost:5173
 
-```sh
-npm run build
-```
+🛠 Технологии
+Vue 3
+Tailwind CSS
+Темная/светлая тема
+Адаптивный дизайн
+
+👤 Авторы
+Ляуман Милена
